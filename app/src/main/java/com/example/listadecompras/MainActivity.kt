@@ -18,7 +18,9 @@ class MainActivity : AppCompatActivity() {
         db = DBHelper(this)
         listView = findViewById(R.id.listView)
 
-        findViewById<Button>(R.id.btnAdd).setOnClickListener {
+        // Configura o ImageButton para adicionar uma nova lista
+        val fabAdd: ImageButton = findViewById(R.id.fabAdd)
+        fabAdd.setOnClickListener {
             val input = EditText(this)
             AlertDialog.Builder(this)
                 .setTitle("Nova Lista")
