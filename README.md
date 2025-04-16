@@ -29,4 +29,4 @@
 
 ---
 
-Agora é só rodar o projeto e começar a desenvolver! 🚀✨
+Agora é só rodar o projeto! 🚀✨
