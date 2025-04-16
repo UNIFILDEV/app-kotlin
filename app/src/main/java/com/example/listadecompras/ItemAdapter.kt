@@ -22,8 +22,8 @@ class ItemAdapter(private val items: List<Item>) :
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = items[position]
-        holder.nomeText.text = item.name              // Corrigido: name
-        holder.quantidadeText.text = "Qtd: ${item.quantity}" // Corrigido: quantity
+        holder.nomeText.text = item.name              
+        holder.quantidadeText.text = "Qtd: ${item.quantity}" 
     }
 
     override fun getItemCount() = items.size
