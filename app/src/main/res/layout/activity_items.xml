@@ -2,13 +2,13 @@
     android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnAdd"
+        android:id="@+id/btnAddItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Adicionar Lista" />
+        android:text="Adicionar Item" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/itemsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
