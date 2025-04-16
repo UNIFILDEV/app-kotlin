@@ -19,7 +19,7 @@ class ItemsActivity : AppCompatActivity() {
         listView = findViewById(R.id.itemsList)
         listId = intent.getIntExtra("listId", 0)
 
-        findViewById<Button>(R.id.btnAddItem).setOnClickListener {
+        findViewById<ImageButton>(R.id.btnAddItem).setOnClickListener {
             val intent = Intent(this, AddItemActivity::class.java)
             intent.putExtra("listId", listId)
             startActivity(intent)

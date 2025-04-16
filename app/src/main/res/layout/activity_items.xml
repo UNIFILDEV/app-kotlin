@@ -1,14 +1,21 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-
-    <Button
-        android:id="@+id/btnAddItem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adicionar Item" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <ListView
         android:id="@+id/itemsList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Adicionar Item"
+        android:src="@drawable/ic_add" />
+</RelativeLayout>
